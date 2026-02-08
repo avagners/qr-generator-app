@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0] - 2026-02-08
+
+### Added
+- SEO optimization with meta tags
+- robots.txt file
+- sitemap.xml file
+- Search engine friendly canonical URL
+
 ## [1.2.0] - 2026-02-08
 
 ### Added
