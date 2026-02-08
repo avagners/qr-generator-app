@@ -29,15 +29,15 @@
 </head>
 <body>
   <div class="container">
-    <h1>QR Code Generator <span id="version-display" class="version">v1.0.0</span></h1>
+    <h1 id="app-title">QR Code Generator <span id="version-display" class="version">v1.0.0</span></h1>
     <div class="input-section">
-      <label for="text-input">Введите текст или URL:</label>
+      <label id="text-input-label" for="text-input">Введите текст или URL:</label>
       <textarea id="text-input" placeholder="https://example.com"></textarea>
     </div>
     
     <div class="options-section">
       <div class="option">
-        <label for="size-select">Размер:</label>
+        <label id="size-select-label" for="size-select">Размер:</label>
         <select id="size-select">
           <option value="100">100x100</option>
           <option value="200">200x200</option>
@@ -47,7 +47,7 @@
       </div>
       
       <div class="option">
-        <label for="color-input">Цвет:</label>
+        <label id="color-input-label" for="color-input">Цвет:</label>
         <input type="color" id="color-input" value="#000000" class="color-square">
       </div>
     </div>
@@ -63,6 +63,7 @@
     </div>
   </div>
 
+  <script type="module" src="/src/i18n.js"></script>
   <script type="module" src="/src/favicon.js"></script>
   <script type="module" src="/src/og-image.js"></script>
   <script type="module" src="/src/main.js"></script>

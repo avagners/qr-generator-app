@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.0] - 2026-02-08
+
+### Added
+- Internationalization (i18n) system
+- Russian and English language support
+- Language switcher component
+
 ## [1.3.0] - 2026-02-08
 
 ### Added
