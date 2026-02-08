@@ -1,4 +1,5 @@
 import QRCode from 'qrcode'
+import { APP_VERSION } from './version.js'
 
 // DOM элементы
 const textInput = document.getElementById('text-input')
@@ -9,6 +10,12 @@ const qrcodeDiv = document.getElementById('qrcode')
 const resultContainer = document.getElementById('result-container')
 const downloadPngBtn = document.getElementById('download-png')
 const downloadSvgBtn = document.getElementById('download-svg')
+const versionDisplay = document.getElementById('version-display')
+
+// Устанавливаем версию в элемент отображения
+if (versionDisplay) {
+  versionDisplay.textContent = `v${APP_VERSION}`
+}
 
 // Генерация QR-кода
 async function generateQRCode() {

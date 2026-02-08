@@ -23,6 +23,18 @@ h1 {
   text-align: center;
   margin-bottom: 30px;
   color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.version {
+  font-size: 0.6em;
+  color: #666;
+  background-color: #f0f0f0;
+  padding: 2px 5px;
+  border-radius: 4px;
 }
 
 .input-section {
