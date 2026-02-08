@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Production builds
+/dist
+/build
+
+# Environment variables
+.env*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage reports
+coverage/
+.nyc_output
+
+# Temporary files
+tmp/
+temp/
+
+# npm debug log
+npm-debug.log*
+
+# Vite cache
+.vite/
+
+# Local development
+.local/
