@@ -32,9 +32,7 @@ h1 {
 .version {
   font-size: 0.6em;
   color: #666;
-  background-color: #f0f0f0;
-  padding: 2px 5px;
-  border-radius: 4px;
+  padding: 0 5px;
 }
 
 .input-section {

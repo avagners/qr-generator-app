@@ -26,7 +26,6 @@ class I18n {
         generateButton: 'Сгенерировать QR-код',
         downloadPng: 'Скачать PNG',
         downloadSvg: 'Скачать SVG',
-        version: 'Версия',
         language: 'Язык',
         ru: 'Русский',
         en: 'Английский'
@@ -40,7 +39,6 @@ class I18n {
         generateButton: 'Generate QR Code',
         downloadPng: 'Download PNG',
         downloadSvg: 'Download SVG',
-        version: 'Version',
         language: 'Language',
         ru: 'Russian',
         en: 'English'
@@ -97,7 +95,7 @@ class I18n {
     // Обновляем версию (если есть)
     const versionDisplay = document.getElementById('version-display');
     if (versionDisplay && typeof APP_VERSION !== 'undefined') {
-      versionDisplay.textContent = `${this.t('version')} ${APP_VERSION}`;
+      versionDisplay.textContent = `v${APP_VERSION}`;
     }
     
     // Добавляем или обновляем переключатель языка
