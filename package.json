@@ -1,0 +1,20 @@
+{
+  "name": "qr-generator-app",
+  "version": "1.0.0",
+  "description": "Simple client-side QR code generator",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": ["qr-code", "generator", "client-side"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.3"
+  }
+}
