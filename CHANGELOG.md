@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.0] - 2026-02-17
+
+### Added
+- Schema.org structured data (WebApplication and FAQPage)
+- FAQ section for rich search snippets
+- SVG favicon
+
+### Changed
+- **SEO**: Improved page title with key benefits (free, no registration, instant)
+- **SEO**: Localized meta descriptions to Russian
+- **SEO**: Enhanced Open Graph and Twitter Card metadata
+- **SEO**: Updated keywords for better search visibility
+- **SEO**: Improved robots.txt with Host directive for Yandex
+- Updated i18n translations for better SEO titles
+
 ## [1.4.0] - 2026-02-08
 
 ### Added

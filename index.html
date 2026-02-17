@@ -3,29 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QR Code Generator</title>
+  <title>QR-код генератор онлайн бесплатно — без регистрации, мгновенно</title>
   <link rel="stylesheet" href="/src/style.css">
-  
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://qr-generator-app-pi.vercel.app/">
-  <meta property="og:title" content="QR Code Generator">
-  <meta property="og:description" content="Simple client-side QR code generator. Create QR codes for URLs, text, and more directly in your browser.">
+  <meta property="og:title" content="QR-код генератор онлайн бесплатно — без регистрации">
+  <meta property="og:description" content="Создавайте QR-коды для URL, текста, WiFi, контактов за 5 секунд. Бесплатно. Без регистрации. Работает в браузере — данные не отправляются на сервер.">
   <meta property="og:image" content="https://qr-generator-app-pi.vercel.app/og-image.png">
-  
+  <meta property="og:locale" content="ru_RU">
+
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://qr-generator-app-pi.vercel.app/">
-  <meta property="twitter:title" content="QR Code Generator">
-  <meta property="twitter:description" content="Simple client-side QR code generator. Create QR codes for URLs, text, and more directly in your browser.">
+  <meta property="twitter:title" content="QR-код генератор онлайн бесплатно — без регистрации">
+  <meta property="twitter:description" content="Создавайте QR-коды для URL, текста, WiFi, контактов за 5 секунд. Бесплатно. Без регистрации. Работает в браузере — данные не отправляются на сервер.">
   <meta property="twitter:image" content="https://qr-generator-app-pi.vercel.app/og-image.png">
-  
+
   <!-- Search Engine Optimization -->
-  <meta name="description" content="Free online QR code generator. Create custom QR codes for websites, contacts, WiFi, payments and more. Works completely in your browser - no server needed.">
-  <meta name="keywords" content="QR code, generator, free, online, scanner, barcode, url, website, contact, WiFi, payment, browser">
+  <meta name="description" content="Бесплатный генератор QR-кодов онлайн. Создавайте QR-коды для URL, текста, WiFi, контактов за 5 секунд. Без регистрации. Работает в браузере — данные не отправляются на сервер.">
+  <meta name="keywords" content="QR-код генератор, создать QR-код, генератор QR-кодов онлайн бесплатно, QR code generator, сделать QR-код, QR для WiFi, QR для контактов, QR для URL">
   <meta name="author" content="QR Code Generator App">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://qr-generator-app-pi.vercel.app/">
+
+  <!-- Schema.org: WebApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "QR Code Generator",
+    "description": "Бесплатный онлайн генератор QR-кодов. Создавайте QR-коды для URL, текста, WiFi, контактов прямо в браузере.",
+    "applicationCategory": "Utility",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "RUB"
+    },
+    "featureList": "Без регистрации, Работает офлайн, Мгновенная генерация, Экспорт в PNG и SVG, Настройка цвета и размера",
+    "inLanguage": "ru"
+  }
+  </script>
+
+  <!-- Schema.org: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Это бесплатно?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Да, генератор QR-кодов полностью бесплатен и не требует регистрации."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Безопасно ли использовать?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Да, все данные обрабатываются в вашем браузере и не отправляются на сервер. Ваши данные остаются конфиденциальными."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Нужно ли устанавливать приложение?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Нет, приложение работает прямо в браузере. Ничего скачивать и устанавливать не нужно."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Можно ли скачать QR-код?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Да, вы можете скачать QR-код в формате PNG или SVG для дальнейшего использования."
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <div class="container">

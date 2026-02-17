@@ -1,4 +1,12 @@
 User-agent: *
 Allow: /
 
+# Disallow admin, config, and temp directories
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /dist/
+
 Sitemap: https://qr-generator-app-pi.vercel.app/sitemap.xml
+
+# Host preference for Yandex
+Host: https://qr-generator-app-pi.vercel.app

@@ -18,7 +18,8 @@ class I18n {
     // Загружаем переводы
     this.translations = {
       ru: {
-        title: 'Генератор QR-кодов',
+        title: 'QR-код генератор онлайн бесплатно — без регистрации',
+        h1Title: 'QR Code Generator',
         inputLabel: 'Введите текст или URL:',
         inputPlaceholder: 'https://example.com',
         sizeLabel: 'Размер:',
@@ -31,7 +32,8 @@ class I18n {
         en: 'Английский'
       },
       en: {
-        title: 'QR Code Generator',
+        title: 'Free QR Code Generator Online — No Registration Required',
+        h1Title: 'QR Code Generator',
         inputLabel: 'Enter text or URL:',
         inputPlaceholder: 'https://example.com',
         sizeLabel: 'Size:',
@@ -72,9 +74,17 @@ class I18n {
   
   // Применить переводы к элементам страницы
   applyTranslations() {
-    // Обновляем заголовок
+    // Обновляем заголовок страницы
     document.title = this.t('title');
-    
+
+    // Обновляем заголовок h1 (если есть версия, сохраняем её)
+    const h1Element = document.querySelector('h1');
+    if (h1Element) {
+      const versionElement = h1Element.querySelector('#version-display');
+      const versionHtml = versionElement ? versionElement.outerHTML : '';
+      h1Element.innerHTML = `${this.t('h1Title')} <span id="version-display" class="version">${versionHtml}</span>`;
+    }
+
     // Обновляем текстовые элементы
     this.updateElementText('text-input-label', this.t('inputLabel'));
     this.updateElementText('size-select-label', this.t('sizeLabel'));
